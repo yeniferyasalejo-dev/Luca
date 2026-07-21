@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Gran Aventura de Luca — Lista de Regalos Baby Shower</title>
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon-180.png">
+<meta property="og:title" content="La Gran Aventura de Luca — Lista de Regalos Baby Shower">
+<meta property="og:image" content="images/bear-luca.jpg">
+<link rel="stylesheet" href="styles.css?v=9">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="#inicio"><span class="brand-mark"><img src="images/bear-luca-face.jpg" alt=""></span> LUCA</a>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#lista">Lista de Regalos</a>
+      <a href="#estilo">Nuestro Estilo</a>
+      <a href="#tiendas">Dónde Comprar</a>
+    </nav>
+  </div>
+</header>
+
+<section id="inicio" class="hero">
+  <div class="hero-decor" aria-hidden="true">
+    <svg class="cloud cloud-1" viewBox="0 0 100 60"><ellipse cx="30" cy="35" rx="28" ry="20"/><ellipse cx="55" cy="25" rx="22" ry="18"/><ellipse cx="75" cy="35" rx="20" ry="16"/><ellipse cx="50" cy="45" rx="35" ry="15"/></svg>
+    <svg class="cloud cloud-2" viewBox="0 0 100 60"><ellipse cx="30" cy="35" rx="28" ry="20"/><ellipse cx="55" cy="25" rx="22" ry="18"/><ellipse cx="75" cy="35" rx="20" ry="16"/><ellipse cx="50" cy="45" rx="35" ry="15"/></svg>
+    <svg class="cloud cloud-3" viewBox="0 0 100 60"><ellipse cx="30" cy="35" rx="28" ry="20"/><ellipse cx="55" cy="25" rx="22" ry="18"/><ellipse cx="75" cy="35" rx="20" ry="16"/><ellipse cx="50" cy="45" rx="35" ry="15"/></svg>
+    <svg class="star star-1" viewBox="0 0 24 24"><path d="M12 0 L14.5 9.5 L24 12 L14.5 14.5 L12 24 L9.5 14.5 L0 12 L9.5 9.5 Z"/></svg>
+    <svg class="star star-2" viewBox="0 0 24 24"><path d="M12 0 L14.5 9.5 L24 12 L14.5 14.5 L12 24 L9.5 14.5 L0 12 L9.5 9.5 Z"/></svg>
+    <svg class="star star-3" viewBox="0 0 24 24"><path d="M12 0 L14.5 9.5 L24 12 L14.5 14.5 L12 24 L9.5 14.5 L0 12 L9.5 9.5 Z"/></svg>
+    <svg class="star star-4" viewBox="0 0 24 24"><path d="M12 0 L14.5 9.5 L24 12 L14.5 14.5 L12 24 L9.5 14.5 L0 12 L9.5 9.5 Z"/></svg>
+  </div>
+  <div class="hero-inner">
+    <svg class="badge-emblem" viewBox="0 0 300 300">
+      <path id="topCurve" d="M 45,120 A 110,110 0 0 1 255,120" fill="none"/>
+      <path id="bottomCurve" d="M 65,190 A 90,90 0 0 0 235,190" fill="none"/>
+      <circle cx="150" cy="150" r="138" fill="none" stroke-width="3"/>
+      <circle cx="150" cy="150" r="122" fill="none" stroke-width="1.5"/>
+      <text class="small-text"><textPath href="#topCurve" startOffset="50%" text-anchor="middle">BABY SHOWER</textPath></text>
+      <text class="small-text"><textPath href="#bottomCurve" startOffset="50%" text-anchor="middle">DESDE 2026</textPath></text>
+
+      <!-- teddy bear photo -->
+      <defs>
+        <clipPath id="bearClip">
+          <circle cx="150" cy="142" r="52"/>
+        </clipPath>
+      </defs>
+      <image href="images/bear-luca-face.jpg" x="98" y="90" width="104" height="104" clip-path="url(#bearClip)" preserveAspectRatio="xMidYMid slice"/>
+      <circle class="bear-ring" cx="150" cy="142" r="52" fill="none"/>
+
+      <text class="big-text" x="150" y="222" text-anchor="middle">LUCA</text>
+    </svg>
+    <h1>La Gran Aventura de Luca</h1>
+    <p>Estamos a punto de dar a luz a nuestro explorador y queremos que seas parte de esta aventura. Aquí encontrarás ideas de regalo, organizadas para que elijas justo lo que necesitamos.</p>
+    <a href="#lista" class="btn btn-primary">Ver la lista de regalos</a>
+  </div>
+  <div class="hero-ridge"></div>
+</section>
+
+<section class="intro">
+  <div class="wrap">
+    <h2>Gracias por acompañarnos</h2>
+    <p>Preparamos esta lista con cariño para hacerte más fácil elegir un regalo para Luca. Puedes comprarlo en la tienda que prefieras; al final te dejamos algunas opciones que nos encantan.</p>
+    <p class="signature">Con todo el amor, esperando a Luca 🌿</p>
+  </div>
+</section>
+
+<nav class="trail-nav">
+  <div class="trail-nav-inner" id="category-nav-inner"></div>
+</nav>
+
+<section id="lista" class="gift-list">
+  <div class="wrap">
+    <h2>Lista de Regalos</h2>
+    <p class="gift-note">Por favor evita comprar peluches — ¡ya tenemos muchos! — al igual que libros de lectura de papel. Los libros suaves o de baño sí pueden ser un buen regalo.</p>
+    <div id="categories-container"></div>
+  </div>
+</section>
+
+<section id="estilo" class="style-gallery">
+  <div class="wrap">
+    <h2>Nuestro Estilo y el de Luca</h2>
+    <p>Nos encantan los tonos tierra, el verde salvia, el crema y los detalles de animalitos y aventura. Si quieres inspirarte antes de elegir, aquí tienes todas las ideas que soñamos para Luca.</p>
+    <div class="gallery-grid">
+      <img src="images/foto-01.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-02.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-03.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-04.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-05.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-06.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-07.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-08.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-09.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-10.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-11.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-12.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-13.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-14.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-15.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-16.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-17.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-18.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-19.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-20.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-21.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-22.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-23.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-24.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-25.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-26.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+      <img src="images/foto-27.jpeg" loading="lazy" alt="Foto de inspiración de estilo para Luca">
+    </div>
+  </div>
+</section>
+
+<section id="tiendas" class="stores">
+  <div class="wrap">
+    <h2>Dónde Comprar</h2>
+    <p>Puedes conseguir estos artículos (o algo parecido) en cualquiera de estas tiendas:</p>
+    <div class="store-grid">
+      <a class="store-card" href="https://www.babyfresh.co/" target="_blank" rel="noopener">Baby Fresh <span class="arrow">→</span></a>
+      <a class="store-card" href="https://babymirkat.com/" target="_blank" rel="noopener">Baby Mirkat <span class="arrow">→</span></a>
+      <a class="store-card" href="https://www.lostreselefantes.com.co/" target="_blank" rel="noopener">Los 3 Elefantes <span class="arrow">→</span></a>
+      <a class="store-card" href="https://www.falabella.com.co/" target="_blank" rel="noopener">Falabella <span class="arrow">→</span></a>
+      <a class="store-card" href="https://www.mic.com.co/" target="_blank" rel="noopener">Mic <span class="arrow">→</span></a>
+      <a class="store-card" href="https://klapkids.com/" target="_blank" rel="noopener">Klap Kids <span class="arrow">→</span></a>
+      <a class="store-card" href="https://www.pepeganga.com/" target="_blank" rel="noopener">Pepe Ganga <span class="arrow">→</span></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Hecho con <span class="heart">♥</span> para Luca — gracias por ser parte de esta aventura.</p>
+</footer>
+
+<script src="data.js?v=4"></script>
+<script src="script.js?v=4"></script>
+</body>
+</html>
