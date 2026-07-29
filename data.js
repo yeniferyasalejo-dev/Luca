@@ -40,6 +40,15 @@ const GIFTS = [
     "cantidad": "1"
   },
   {
+    "categoria": "Cuarto y Sueño",
+    "subcategoria": "Ambiente y seguridad",
+    "prioridad": "esencial",
+    "item": "Monitor de bebé con video (VTech VM901)",
+    "descripcion": "Cámara WiFi 1080p, pantalla de 5\", zoom panorámico, visión nocturna y conversación bidireccional.",
+    "cantidad": "1",
+    "comprado": true
+  },
+  {
     "categoria": "Baño e Higiene",
     "subcategoria": "Baño",
     "prioridad": "esencial",
