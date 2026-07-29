@@ -305,14 +305,35 @@ a { color: inherit; }
 .gift-note {
   max-width: 620px;
   margin: 0 auto 30px;
-  text-align: center;
+  text-align: left;
   background: #f6d9c2;
   border: 1.5px solid var(--rust);
   border-radius: var(--radius);
-  padding: 14px 22px;
+  padding: 18px 26px;
   color: #7a3717;
-  font-weight: 700;
   font-size: 0.94rem;
+}
+
+.gift-note-title {
+  margin: 0 0 10px;
+  font-family: 'Fraunces', serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.gift-note-list {
+  margin: 0;
+  padding-left: 22px;
+}
+
+.gift-note-list li {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.gift-note-list li:last-child {
+  margin-bottom: 0;
 }
 
 .category-block {
