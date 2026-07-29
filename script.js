@@ -64,8 +64,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const card = document.createElement('div');
         card.className = 'item-card';
         if (item.confirmar) card.classList.add('item-card-confirm');
+        if (item.comprado) card.classList.add('item-card-comprado');
 
         card.innerHTML = `
+          ${item.comprado ? `<div class="comprado-banner">Ya comprado</div>` : ''}
           <div class="item-name">${item.item}${item.confirmar ? ' <span class="confirm-star" title="Consultar con los papás antes de comprar">*</span>' : ''}</div>
           ${item.descripcion ? `<div class="item-desc">${item.descripcion}</div>` : ''}
           ${item.confirmar ? `<div class="confirm-note">* Antes de comprar, por favor pregúntanos — esta referencia es especial según las necesidades de Luca.</div>` : ''}

@@ -165,7 +165,8 @@ const GIFTS = [
     "prioridad": "esencial",
     "item": "Tijeras de punta roma",
     "descripcion": "Para cortar gasas, apósitos.",
-    "cantidad": "1"
+    "cantidad": "1",
+    "comprado": true
   },
   {
     "categoria": "Ropa y Vestir",

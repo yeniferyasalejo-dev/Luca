@@ -378,6 +378,7 @@ a { color: inherit; }
   border-radius: var(--radius);
   padding: 18px 20px;
   position: relative;
+  overflow: hidden;
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
@@ -414,6 +415,28 @@ a { color: inherit; }
   font-size: 0.82rem;
   font-weight: 700;
   color: var(--rust);
+}
+
+.item-card-comprado {
+  opacity: 0.6;
+}
+
+.item-card-comprado .item-name {
+  text-decoration: line-through;
+}
+
+.comprado-banner {
+  position: absolute;
+  top: 14px;
+  right: -32px;
+  transform: rotate(35deg);
+  background: var(--forest);
+  color: var(--cream);
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  padding: 3px 36px;
 }
 
 /* ---------- Style gallery ---------- */
