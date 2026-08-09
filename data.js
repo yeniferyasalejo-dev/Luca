@@ -102,7 +102,8 @@ const GIFTS = [
     "prioridad": "esencial",
     "item": "Basura para pañales sucios (Momcozy Triple Seal)",
     "descripcion": "Triple sello antiolores. Con pedal sin manos.",
-    "cantidad": "1"
+    "cantidad": "1",
+    "comprado": true
   },
   {
     "categoria": "Baño e Higiene",
