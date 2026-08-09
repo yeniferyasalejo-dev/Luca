@@ -85,7 +85,7 @@ const GIFTS = [
     "subcategoria": "Pañales",
     "prioridad": "esencial",
     "item": "Toallitas húmedas sin alcohol ni fragancia",
-    "descripcion": "Para cada cambio de pañal. Mantener stock.",
+    "descripcion": "Que sean 99% agua. Para cada cambio de pañal. Mantener stock.",
     "cantidad": "Stock"
   },
   {
