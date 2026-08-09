@@ -236,7 +236,7 @@ const GIFTS = [
     "subcategoria": "Básicos 0–3 meses",
     "prioridad": "esencial",
     "item": "Conjuntos / overoles de salida",
-    "descripcion": "Para visitas. No sobre-invertir en tallas pequeñas.",
+    "descripcion": "Para visitas.",
     "cantidad": "5"
   },
   {
