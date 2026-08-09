@@ -196,11 +196,36 @@ const GIFTS = [
   },
   {
     "categoria": "Ropa y Vestir",
-    "subcategoria": "Básicos 0–3 meses",
+    "subcategoria": "Pijamas por talla",
     "prioridad": "esencial",
-    "item": "Pijamas con pies / enterizos",
+    "item": "Pijamas con pies / enterizos (0–3 meses)",
     "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
-    "cantidad": "5"
+    "cantidad": "3"
+  },
+  {
+    "categoria": "Ropa y Vestir",
+    "subcategoria": "Pijamas por talla",
+    "prioridad": "esencial",
+    "item": "Pijamas con pies / enterizos (3–6 meses)",
+    "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
+    "cantidad": "3"
+  },
+  {
+    "categoria": "Ropa y Vestir",
+    "subcategoria": "Pijamas por talla",
+    "prioridad": "esencial",
+    "item": "Pijamas con pies / enterizos (6–9 meses)",
+    "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
+    "cantidad": "3",
+    "comprado": true
+  },
+  {
+    "categoria": "Ropa y Vestir",
+    "subcategoria": "Pijamas por talla",
+    "prioridad": "esencial",
+    "item": "Pijamas con pies / enterizos (9–12 meses)",
+    "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
+    "cantidad": "2"
   },
   {
     "categoria": "Ropa y Vestir",
