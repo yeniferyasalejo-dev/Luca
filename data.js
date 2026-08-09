@@ -198,7 +198,8 @@ const GIFTS = [
     "categoria": "Ropa y Vestir",
     "subcategoria": "Pijamas por talla",
     "prioridad": "esencial",
-    "item": "Pijamas con pies / enterizos (0–3 meses)",
+    "item": "Pijamas con pies / enterizos",
+    "talla": "0–3 meses",
     "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
     "cantidad": "3"
   },
@@ -206,7 +207,8 @@ const GIFTS = [
     "categoria": "Ropa y Vestir",
     "subcategoria": "Pijamas por talla",
     "prioridad": "esencial",
-    "item": "Pijamas con pies / enterizos (3–6 meses)",
+    "item": "Pijamas con pies / enterizos",
+    "talla": "3–6 meses",
     "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
     "cantidad": "3"
   },
@@ -214,7 +216,8 @@ const GIFTS = [
     "categoria": "Ropa y Vestir",
     "subcategoria": "Pijamas por talla",
     "prioridad": "esencial",
-    "item": "Pijamas con pies / enterizos (6–9 meses)",
+    "item": "Pijamas con pies / enterizos",
+    "talla": "6–9 meses",
     "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
     "cantidad": "3",
     "comprado": true
@@ -223,7 +226,8 @@ const GIFTS = [
     "categoria": "Ropa y Vestir",
     "subcategoria": "Pijamas por talla",
     "prioridad": "esencial",
-    "item": "Pijamas con pies / enterizos (9–12 meses)",
+    "item": "Pijamas con pies / enterizos",
+    "talla": "9–12 meses",
     "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
     "cantidad": "2"
   },

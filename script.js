@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         card.innerHTML = `
           ${item.comprado ? `<div class="comprado-banner">Ya comprado</div>` : ''}
-          <div class="item-name">${item.item}${item.confirmar ? ' <span class="confirm-star" title="Consultar con los papás antes de comprar">*</span>' : ''}</div>
+          <div class="item-name">${item.item}${item.confirmar ? ' <span class="confirm-star" title="Consultar con los papás antes de comprar">*</span>' : ''}${item.talla ? `<span class="item-talla">${item.talla}</span>` : ''}</div>
           ${item.descripcion ? `<div class="item-desc">${item.descripcion}</div>` : ''}
           ${item.confirmar ? `<div class="confirm-note">* Antes de comprar, por favor pregúntanos — esta referencia es especial según las necesidades de Luca.</div>` : ''}
         `;
