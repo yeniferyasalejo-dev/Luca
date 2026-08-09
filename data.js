@@ -20,7 +20,7 @@ const GIFTS = [
     "subcategoria": "Ropa de cama",
     "prioridad": "recomendado",
     "item": "Saco de dormir bebé (sleeping bag)",
-    "descripcion": "Para Chía (~14°C). Reemplaza edredón. Más seguro.",
+    "descripcion": "Reemplaza edredón. Más seguro.",
     "cantidad": "2"
   },
   {
@@ -28,7 +28,7 @@ const GIFTS = [
     "subcategoria": "Ambiente y seguridad",
     "prioridad": "esencial",
     "item": "Termómetro ambiental",
-    "descripcion": "Ideal 18–22°C. Importante en Chía por frío nocturno.",
+    "descripcion": "Ideal 18–22°C.",
     "cantidad": "1"
   },
   {
@@ -69,7 +69,7 @@ const GIFTS = [
     "subcategoria": "Pañales",
     "prioridad": "esencial",
     "item": "Pañales recién nacido (Talla RN / 1)",
-    "descripcion": "~10–12/día al inicio. No stockear demasiado.",
+    "descripcion": "",
     "cantidad": "2 paquetes"
   },
   {
@@ -244,7 +244,7 @@ const GIFTS = [
     "subcategoria": "Básicos 0–3 meses",
     "prioridad": "esencial",
     "item": "Calcetines sin elástico apretado",
-    "descripcion": "Se pierden solos — comprar varios. En Chía siempre necesarios.",
+    "descripcion": "Se pierden solos — comprar varios.",
     "cantidad": "12 pares"
   },
   {
@@ -260,7 +260,7 @@ const GIFTS = [
     "subcategoria": "Básicos 0–3 meses",
     "prioridad": "esencial",
     "item": "Chaqueta / saco de punto o polar",
-    "descripcion": "Para salidas con clima frío en Chía. Sin cierre sobre la cabeza.",
+    "descripcion": "Para salidas con clima frío. Sin cierre sobre la cabeza.",
     "cantidad": "2"
   },
   {
@@ -291,8 +291,8 @@ const GIFTS = [
     "categoria": "Transporte y Movilidad",
     "subcategoria": "Silla de auto",
     "prioridad": "esencial",
-    "item": "Silla de auto Nuna REVV MAXX convertible (Isofix)",
-    "descripcion": "Recomendada. Grupos 0–3. Contramarcha hasta 18 kg (~4 años). Instalar antes del nacimiento.",
+    "item": "Silla de auto Nuna EXEC™ Next (All-in-one)",
+    "descripcion": "Desde $680. Color Granite.",
     "cantidad": "1",
     "confirmar": true
   },
