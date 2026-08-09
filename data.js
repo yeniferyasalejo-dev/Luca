@@ -200,7 +200,7 @@ const GIFTS = [
     "prioridad": "esencial",
     "item": "Pijamas con pies / enterizos",
     "talla": "0–3 meses",
-    "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
+    "descripcion": "Algodón. Con broches fáciles.",
     "cantidad": "3"
   },
   {
@@ -209,7 +209,7 @@ const GIFTS = [
     "prioridad": "esencial",
     "item": "Pijamas con pies / enterizos",
     "talla": "3–6 meses",
-    "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
+    "descripcion": "Algodón. Con broches fáciles.",
     "cantidad": "3"
   },
   {
@@ -218,7 +218,7 @@ const GIFTS = [
     "prioridad": "esencial",
     "item": "Pijamas con pies / enterizos",
     "talla": "6–9 meses",
-    "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
+    "descripcion": "Algodón. Con broches fáciles.",
     "cantidad": "3",
     "comprado": true
   },
@@ -228,7 +228,7 @@ const GIFTS = [
     "prioridad": "esencial",
     "item": "Pijamas con pies / enterizos",
     "talla": "9–12 meses",
-    "descripcion": "Algodón. Con broches fáciles. Sin necesidad de calcetines en la cuna.",
+    "descripcion": "Algodón. Con broches fáciles.",
     "cantidad": "2"
   },
   {
