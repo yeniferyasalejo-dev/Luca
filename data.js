@@ -374,7 +374,7 @@ const GIFTS = [
     "subcategoria": "6–12 meses",
     "prioridad": "recomendado",
     "item": "Andador de empuje (caminador de arrastre)",
-    "descripcion": "Tipo carrito de empuje, NO los de ruedas (peligrosos). Para ~9–14 meses.",
+    "descripcion": "Tipo carrito de empuje. Para ~9–14 meses.",
     "cantidad": "1"
   },
   {
