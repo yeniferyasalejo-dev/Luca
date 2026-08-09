@@ -76,7 +76,7 @@ const GIFTS = [
     "categoria": "Baño e Higiene",
     "subcategoria": "Pañales",
     "prioridad": "esencial",
-    "item": "Pañales Talla 2 (3–6 kg)",
+    "item": "Pañales",
     "descripcion": "Tener listos desde antes de nacer. Los más usados los primeros meses.",
     "cantidad": "4 paquetes"
   },
@@ -182,8 +182,8 @@ const GIFTS = [
     "categoria": "Ropa y Vestir",
     "subcategoria": "Básicos 0–3 meses",
     "prioridad": "esencial",
-    "item": "Bodies manga larga (algodón térmico)",
-    "descripcion": "Base del ajuar en Chía. Con broches entrepierna.",
+    "item": "Bodies manga larga (algodón)",
+    "descripcion": "Base del ajuar. Con broches entrepierna.",
     "cantidad": "8"
   },
   {
