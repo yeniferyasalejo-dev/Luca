@@ -303,7 +303,7 @@ const GIFTS = [
     "item": "Cochecito / coche con capazo plano (Travel System)",
     "descripcion": "Capazo plano 0–6 meses. Convertible ahorra dinero a largo plazo.",
     "cantidad": "1",
-    "confirmar": true
+    "comprado": true
   },
   {
     "categoria": "Transporte y Movilidad",
