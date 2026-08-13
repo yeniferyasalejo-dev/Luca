@@ -71,6 +71,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="item-name">${item.item}${item.confirmar ? ' <span class="confirm-star" title="Consultar con los papás antes de comprar">*</span>' : ''}${item.talla ? `<span class="item-talla">${item.talla}</span>` : ''}</div>
           ${item.descripcion ? `<div class="item-desc">${item.descripcion}</div>` : ''}
           ${item.confirmar ? `<div class="confirm-note">* Antes de comprar, por favor pregúntanos — esta referencia es especial según las necesidades de Luca.</div>` : ''}
+          ${item.link ? `<a class="item-link" href="${item.link}" target="_blank" rel="noopener">Ver producto →</a>` : ''}
         `;
 
         grid.appendChild(card);

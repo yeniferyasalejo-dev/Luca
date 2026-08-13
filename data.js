@@ -115,6 +115,15 @@ const GIFTS = [
   },
   {
     "categoria": "Baño e Higiene",
+    "subcategoria": "Pañales",
+    "prioridad": "recomendado",
+    "item": "Cambiador impermeable Jool Baby",
+    "descripcion": "Cojín de espuma grande, ligero y portátil, fácil de limpiar. Color salvia (verde).",
+    "cantidad": "1",
+    "link": "https://www.amazon.com/-/es/Jool-Baby-Cambiador-impermeable-comodidad/dp/B0D64D3V9J/"
+  },
+  {
+    "categoria": "Baño e Higiene",
     "subcategoria": "Cuidado corporal",
     "prioridad": "esencial",
     "item": "Cortauñas / lima eléctrica de bebé",
