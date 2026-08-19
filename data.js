@@ -210,7 +210,8 @@ const GIFTS = [
     "item": "Pijamas con pies / enterizos",
     "talla": "0–3 meses",
     "descripcion": "Algodón. Con broches fáciles.",
-    "cantidad": "3"
+    "cantidad": "3",
+    "comprado": true
   },
   {
     "categoria": "Ropa y Vestir",
